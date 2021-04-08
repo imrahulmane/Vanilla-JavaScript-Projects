@@ -1,0 +1,32 @@
+.table {
+  width: 400px;
+  margin: auto;
+}
+
+#todo {
+  cursor: none;
+  outline: none;
+}
+
+.btn-lg {
+  border: none;
+  cursor: pointer;
+}
+
+.body {
+  background: #008891;
+}
+
+.container {
+  /* border: 1px solid red; */
+  width: 600px;
+  height: auto;
+  padding: 20px;
+  background: #edffec;
+  box-shadow: 2px 2px 5px black;
+  border-radius: 10px;
+}
+
+.imspiedy{
+  margin-left: 180px;
+} */

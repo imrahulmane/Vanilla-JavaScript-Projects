@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="bootstrap.min.css" />
+    <link rel="stylesheet" href="style.css" />
+    <title>TO DO List</title>
+  </head>
+  <body>
+    <div class="container mt-4">
+      <h1 class="display-4 text-center">
+        <span class="fas fa-clipboard-list"></span> To Do List
+      </h1>
+      <form class="row g-3 justify-content-center mt-4" id="todoform">
+        <div class="col-auto">
+          <input
+            type="text"
+            id="todo"
+            class="form-control-lg"
+            placeholder="Add To Do"
+          />
+        </div>
+        <div class="col-auto">
+          <button type="submit" class="btn-lg btn-success mb-3">
+            Add Task
+          </button>
+        </div>
+      </form>
+      <table
+        class="table table-Secondary table-striped table-hover table-sm mt-3"
+      >
+        <tbody id="tasklist"></tbody>
+      </table>
+      <h5 class="mt-3 justify-content-center imspiedy">
+        < Made By imspiedy />
+      </h5>
+    </div>
+    <script src="app.js"></script>
+    <script
+      src="https://kit.fontawesome.com/687dc22499.js"
+      crossorigin="anonymous"
+    ></script>
+  </body>
+</html>
+
+<!-- <td id="maintask"></td>
+<td><a href="#" class="btn btn-danger btn-sm delete">
+    <span class="fas fa-trash-alt"></span></a></td>
+    <td><a href="#" class="btn btn-success btn-sm complete">
+    <span class="fas fa-check"></span></a>
+    </td> -->
